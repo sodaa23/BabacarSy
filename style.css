@@ -1,0 +1,107 @@
+header {
+background-image: url("image\ spon.jpg");
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.logo{
+    text-align: center;
+}
+.text1{
+    color: white;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    font-family: "Poppins", Arial, Helvetica, Verdana, sans-serif;
+    line-height: 1em;
+    max-width: 50rem;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-size: 7rem;
+    padding-top: 160px;
+    margin-left: 60px;
+    text-align: center;
+
+}
+    
+.big{
+    font-size: 30px;
+}
+.small {
+    font-size: 20px;
+}
+
+.bouton:not(:last-child) {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 1.25rem;
+    margin-right: 1.875rem;
+    webkit-appearance: none;
+    -moz-appearance: none;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 60px;
+}
+.bouton a{
+    color: #00817C;
+    text-decoration: none;
+    border: 2px solid #00817C;
+    padding: 10px 20px;
+    
+}
+
+.btn{
+    transition: 0.6s, ease;
+    text-align: center;
+}
+
+
+.btn{
+    align-items: center;
+    background: #00817C;
+    border: 0;
+    border-radius: 1000px;
+    box-shadow: none;
+    color: #FFFFFF !important;
+    cursor: pointer;
+    font-family: "GTHaptik", sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+    line-height: 1.25em;
+    padding: 1rem 1.3rem;
+    text-align: center;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
+
+.btn:hover{
+    background-color: #E55B26;
+    border: 0;
+    border-radius: 1000px;
+    box-shadow: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: "GTHaptik", sans-serif;
+    font-size: 1.2em;
+    justify-content: center;
+    line-height: 1.25em;
+    padding: 1rem 1.3rem;
+    text-align: center;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    -moz-transition: .3s;
+    transition: .3s;
+}
